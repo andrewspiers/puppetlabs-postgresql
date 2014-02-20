@@ -110,7 +110,7 @@ To manage users, roles and permissions:
       role      => 'marmot',
     }
 
-In this example, you would grant ALL privileges on the test1 database and on the `my_table` table of the test2 database to the user or group specified by dan.
+In this example, you would grant ALL privileges on the test1 database and on the `my_table` table of the test2 database to the role 'marmot'.
 
 At this point, you would just need to plunk these database name/username/password values into your PuppetDB config files, and you are good to go.
 
